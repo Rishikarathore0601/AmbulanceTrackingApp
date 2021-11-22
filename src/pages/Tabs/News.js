@@ -6,9 +6,6 @@ import LargeHeader from "../../components/Header/LargeHeader";
 import { withGoogleMap, withScriptjs, GoogleMap, mapStyles, Marker,  InfoWindow, google
 } from "react-google-maps";
 
-
-
-
 function Map() {
   const [selectedMark, setSelectedMark] = useState(null);
 return (
@@ -84,12 +81,3 @@ export default function App() {
     
   );
 }
-
-
-
-
-
-
-
-  
-  
